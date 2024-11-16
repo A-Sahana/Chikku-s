@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIKKU's™ India</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background: url('images/services.jpg') no-repeat center center/cover; /* Replace with your image path */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            filter: blur(0px); /* Clear any body-level blurring */
+        }
+
+        /* Blurred Background Overlay */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('images/services.jpg') no-repeat center center/cover;
+            filter: blur(5px); /* Apply blur effect */
+            z-index: -1;
+            opacity: 1.2; /* Adjust opacity for overlay effect */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            font-size:16px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Add transparency for readability */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .header-1, .header-2 {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            padding: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            position: relative;
+            z-index: 1;
+            padding: 20px 0;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="header-1">
+        <a href="#" class="logo"><img src="images/logo.png" alt="CHIKKU's Logo" class="logo-img" />CHIKKU's™ India </a>
+        <form action="" class="search-box-container">
+            <input type="search" id="search-box" placeholder="Search Here">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <div class="header-2">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="main.html">home</a>
+            <a href="main.html">category</a>
+            <a href="main.html">product</a>
+            <a href="main.html">contact</a>
+            <a href="https://forms.zohopublic.in/chikkuscmaantec1/form/BecomeSeller/formperma/_lAzVAIVmLCt6SnrUWw8ZMYH5Pq3qEMURZ0TTZ2n7Fo">Become Seller</a>
+            <a href="https://forms.zohopublic.in/chikkuscmaantec1/form/Franchise/formperma/OspFv1W8aYJ1GNyHfKDhBsmSjs97-DZVVpRNXaJlhH4">franchise</a>
+        </nav>
+
+        <div class="icons">
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="login.html" class="fas fa-user-circle"></a>           
+            <a href="login.html">Logout</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <header>
+        <h1>Services</h1>
+        <p>Welcome to CHIKKU's™ India!</p>
+    </header>
+
+    <section class="services-content">
+        
+        <p>Welcome to CHIKKU's India, your go-to destination for premium dry fruits! Our journey began in 2019 with a simple mission: to promote healthy living through the delicious and nutritious benefits of dry fruits.</p>
+        <br>
+        
+        <p>At Chikku's, we take pride in offering a variety of services to meet your needs:</p>
+        <br>
+
+        <h2>Retail </h2>
+        <p>Explore our wide range of high-quality dry fruits available for individual purchase. We ensure that every product is fresh, natural, and free from additives.</p>
+        <br>
+
+        <h2>Franchise</h2>
+        <p>We believe in sharing our passion for healthy snacking! If you're interested in joining our family and opening your own franchise, we provide all the support and guidance you need to succeed.</p>
+        <br>
+
+        <h2>Wholesale</h2>
+        <p>For businesses looking to stock up on dry fruits, we offer competitive wholesale pricing. We cater to retailers, cafes, and health food stores, ensuring you have access to the best products at great rates.</p>
+        <br>
+        
+        <p>Our commitment to quality and customer satisfaction drives everything we do. </p>
+        <br>
+        
+        <p>Join us in celebrating the goodness of dry fruits and take a step towards a healthier lifestyle!</p>
+        <br>
+
+    </section>
+</div>
+
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"><img src="images/logo.png" alt="CHIKKU Logo" class="logo-img" />CHIKKU's™ India</a>
+            <p>CHIKKU's™ India</p>
+            <div class="share">
+                <a href="https://www.facebook.com/share/1Ej76tHLQo/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/@ChikkusIndia"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/chikkusindia?igsh=dnFtc3pwMW9mbzFy&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/chikkus-india/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>download app</h3>
+            <div class="links">
+                <a href="#">google play</a>
+                <a href="#">app store</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>More Info</h3>
+            <div class="links">
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="pp.html">Privacy Policy</a>
+                <a href="tc.html">Terms And Condition</a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

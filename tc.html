@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIKKU's™ India</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background: url('images/tc.jpg') no-repeat center center/cover; 
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            filter: blur(0px); /* Clear any body-level blurring */
+        }
+
+        /* Blurred Background Overlay */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('images/tc.jpg') no-repeat center center/cover;
+            filter: blur(5px); /* Apply blur effect */
+            z-index: -1;
+            opacity: 1.2; /* Adjust opacity for overlay effect */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            font-size:16px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Add transparency for readability */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .header-1, .header-2 {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            padding: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            position: relative;
+            z-index: 1;
+            padding: 20px 0;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="header-1">
+        <a href="#" class="logo"><img src="images/logo.png" alt="CHIKKU's Logo" class="logo-img" /> CHIKKU's India </a>
+        <form action="" class="search-box-container">
+            <input type="search" id="search-box" placeholder="Search Here">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+    <div class="header-2">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#category">category</a>
+            <a href="#product">product</a>
+            <a href="#contact">contact</a>
+            <a href="seller.html">Become Seller</a>
+            <a href="https://forms.zohopublic.in/chikkuscmaantec1/form/Franchise/formperma/OspFv1W8aYJ1GNyHfKDhBsmSjs97-DZVVpRNXaJlhH4">franchise</a>
+        </nav>
+
+        <div class="icons">
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user-circle"></a>           
+            <a href="login.html">Logout</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <header>
+        <h1>Terms and Conditions</h1>
+        <p>Welcome to Chikku's India!</p>
+    </header>
+
+    <section class="terms-content">
+        <h2>Age Requirement</h2>
+        <p>You must be at least 18 years old to use our website. By using our site, you confirm that you meet this age requirement. You agree to use the website only for lawful purposes and in a manner that does not infringe the rights of others.</p>
+        <br>
+        <h2>Product Information and Pricing</h2>
+        <p>We strive to provide accurate product descriptions and pricing. However, we do not guarantee that all information is error-free. We reserve the right to correct any inaccuracies and change or update information at any time without prior notice.</p>
+        <br>
+        <h2>Order and Payment</h2>
+        <p>When you place an order, you agree to provide accurate and complete information. Payment must be made at the time of purchase. We accept various payment methods, and all transactions are processed securely.</p>
+        <br>
+        <h2>Shipping and Delivery</h2>
+        <p>We aim to process and ship your order promptly. Delivery times may vary based on your location. We are not responsible for delays caused by shipping carriers or unforeseen circumstances.</p>
+        <br>
+        <h2>Returns and Refunds</h2>
+        <p>If you are not satisfied with your purchase, please contact us within 7 days of receiving your order. We will provide instructions on how to return the product. Refunds will be processed according to our return policy.</p>
+        <br>
+        <h2>Limitation of Liability</h2>
+        <p>To the fullest extent permitted by law, Chikku's Nuts will not be liable for any indirect, incidental, or consequential damages arising from your use of the website or products purchased.</p>
+        <br>
+        <h2>Modifications</h2>
+        <p>We reserve the right to modify these Terms and Conditions at any time. Any changes will be effective immediately upon posting on our website. It is your responsibility to review these terms regularly.</p>
+        <br>
+        <h2>Governing Law</h2>
+        <p>These terms are governed by the laws of Karnataka. Any disputes arising from these terms will be resolved in the courts of Bangalore.</p>
+        <br>
+        <h2>Contact Us</h2>
+        <p>For any questions regarding these Terms and Conditions, please contact us at:</p>
+        <p>Email: <a href="mailto:chikkus@cmaantechnologies.org">chikkus@cmaantechnologies.org</a></p>
+    </section>
+</div>
+
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"><img src="images/logo.png" alt="CHIKKU Logo" class="logo-img" />CHIKKU's India</a>
+            <p>CHIKKU's India</p>
+            <div class="share">
+            <a href="https://www.facebook.com/share/1Ej76tHLQo/?mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/@ChikkusIndia"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/chikkusindia?igsh=dnFtc3pwMW9mbzFy&utm_source=qr"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/chikkus-india/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>download app</h3>
+            <div class="links">
+                <a href="#">google play</a>
+                <a href="#">app store</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>more info</h3>
+            <div class="links">
+                <a href="about.html">AboutUs</a>
+                <a href="services.html">Services</a>
+                <a href="tc.html">Terms & Conditions</a>
+                <a href="pp.html">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

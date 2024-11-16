@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+/* Floating Chatbot Container */
+.chat-container {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 400px; /* Keeping the same width */
+  height: 500px; /* Keeping the same height */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: none; /* Initially hidden */
+}
+
+/* Chat Box */
+.chat-box {
+  flex: 1;
+  padding: 10px; /* Adjusted padding if needed */
+  overflow-y: auto;
+  border-bottom: 2px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 20px; /* Increased font size for the chat messages */
+}
+
+/* Chat Input Area */
+.chat-input {
+  display: flex;
+  border-top: 2px solid #ccc;
+  padding: 10px; /* Adjusted padding if needed */
+  background-color: #fff;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px; /* Adjusted padding if needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px; /* Increased font size */
+}
+
+.chat-input button {
+  padding: 10px 15px; /* Adjusted button padding */
+  background-color: #3c934f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 20px; /* Increased font size */
+  cursor: pointer;
+}
+
+
+.chat-input button:hover {
+  background-color: #171632; /* Blue color on hover */
+}
+/* Message Styles */
+.chat-message {
+  padding: 10px; /* Adjusted padding */
+  margin: 10px 0;
+  border-radius: 10px;
+  max-width: 80%;
+  font-size: 20px; /* Increased font size for messages */
+}
+
+.bot-message {
+  background-color: #d7e5dc;
+  align-self: flex-start;
+
+}
+
+.user-message {
+  background-color: #9dd5ac;
+  align-self: flex-end;
+}
+
+/* Floating Button for the Chat */
+.chat-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #398d33;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;  /* Keeping the same button size */
+  height: 50px; /* Keeping the same button size */
+  font-size: 24px; /* Font size of the icon */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Icon */
+.chat-float i {
+  pointer-events: none;
+}
